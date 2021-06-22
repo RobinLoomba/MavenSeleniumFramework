@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression-Suite">
+    <test name="Smoke Test" parallel="instances">
+        <groups>
+            <run>
+                <include name="Smoke Test"/>
+            </run>
+        </groups>
+                <classes>
+            <class name="com.featuretesting.LogInPage"/>
+        </classes>
+    </test>
+</suite>

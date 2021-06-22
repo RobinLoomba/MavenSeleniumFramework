@@ -1,0 +1,4 @@
+com\featuretesting\BaseClass.class
+com\objectrepository\LogInPagePOM.class
+com\featuretesting\DriverClass.class
+com\featuretesting\LogInPage.class
