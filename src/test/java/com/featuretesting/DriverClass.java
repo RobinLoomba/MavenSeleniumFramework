@@ -31,7 +31,9 @@ public class DriverClass {
             driver = new EdgeDriver();
         }
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        System.out.println("Testing");
         return driver;
+
 
     }
 
