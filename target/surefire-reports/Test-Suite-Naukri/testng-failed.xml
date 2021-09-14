@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite-Naukri]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="tests" name="Naukri Test(failed)">
+    <classes>
+      <class name="com.featuretesting.LogInPage">
+        <methods>
+          <include name="invalidCredentialsTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.featuretesting.LogInPage -->
+    </classes>
+  </test> <!-- Naukri Test(failed) -->
+</suite> <!-- Failed suite [Test-Suite-Naukri] -->

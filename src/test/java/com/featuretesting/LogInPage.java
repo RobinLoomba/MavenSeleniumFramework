@@ -78,7 +78,7 @@ public class LogInPage extends LogInPagePOM {
     @Test(groups = {"Regression Test"})
     public void companyURLVerification() {
         getMethod(url);
-        maximize();
+        //maximize();
         companyVerification();
     }
 
